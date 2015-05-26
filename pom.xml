@@ -21,7 +21,7 @@
      <email>do@jelastic.com</email>
      <password>passw0rd</password>
      <context>ROOT</context>
-     <environment>jmx-test</environment>
+     <environment>${environment_name}</environment>
      <comment>test-plugin</comment>
      <api_hoster>app.stage.jelastic.com</api_hoster> 
   </configuration>
