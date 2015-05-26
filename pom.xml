@@ -13,7 +13,12 @@
 	<build>
 	  <finalName>${project.artifactId}</finalName>
 	</build>
-<plugins>
+	
+	
+	   <dependencyManagement>
+        <dependencies>
+            <dependency>
+            <plugins>
  <plugin>
   <groupId>com.jelastic</groupId>
   <artifactId>jelastic-maven-plugin</artifactId>
@@ -31,3 +36,10 @@
 
 
 </project>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+	
+	
+	
+
