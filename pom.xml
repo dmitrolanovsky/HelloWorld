@@ -13,5 +13,21 @@
 	<build>
 	  <finalName>${project.artifactId}</finalName>
 	</build>
+<plugins>
+ <plugin>
+  <groupId>com.jelastic</groupId>
+  <artifactId>jelastic-maven-plugin</artifactId>
+  <version>1.7</version>
+  <configuration>
+     <email>do@jelastic.com</email>
+     <password>passw0rd</password>
+     <context>ROOT</context>
+     <environment>jmx-test</environment>
+     <comment>test-plugin</comment>
+     <api_hoster>app.stage.jelastic.com</api_hoster> 
+  </configuration>
+ </plugin>
+</plugins>
+
 
 </project>
