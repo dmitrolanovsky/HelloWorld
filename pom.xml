@@ -20,8 +20,8 @@
   <configuration>
      <email>do@jelastic.com</email>
      <password>passw0rd</password>
-     <context>ROOT</context>
-     <environment>${env.USER}</environment>
+     <context>${env.USER}</context>
+     <environment>jmx-test</environment>
      <comment>test-plugin</comment>
      <api_hoster>app.stage.jelastic.com</api_hoster> 
   </configuration>
