@@ -18,10 +18,10 @@
   <artifactId>jelastic-maven-plugin</artifactId>
   <version>1.7</version>
   <configuration>
-     <email>do@jelastic.com</email>
+     <email>do+dev@jelastic.com</email>
      <password>passw0rd</password>
-     <context>${ENV_NAME}</context>
-     <environment>jmx-test</environment>
+     <context>ROOT</context>
+     <environment>${ENV_NAME}</environment>
      <comment>test-plugin</comment>
      <api_hoster>app.stage.jelastic.com</api_hoster> 
   </configuration>
