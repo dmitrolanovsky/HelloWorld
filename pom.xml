@@ -19,7 +19,7 @@
   <version>1.7</version>
   <configuration>
      <email>do+dev@jelastic.com</email>
-     <password>passw0rd</password>
+     <password>ABCabc123!</password>
      <context>ROOT</context>
      <environment>${ENV_NAME}</environment>
      <comment>test-plugin</comment>
