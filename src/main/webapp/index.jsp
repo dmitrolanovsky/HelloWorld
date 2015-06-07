@@ -17,7 +17,7 @@
 <div class="curve1"></div> 
 <div class="curve2"></div> 
 <div class="curve3"></div> 
-</div> <h1>HELLO, AGAIN</h1>
+</div> <h1>Jelastic</h1>
 <h2>You did it!</h2>
 <h3 class="blue">Your Java application is now running in the Cloud!</h3> 
 <a id="header-link" href="http://jelastic.com/" target="_blank" class="powered-by"></a>
