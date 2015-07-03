@@ -23,7 +23,7 @@
      <context>ROOT</context>
      <environment>${ENV_NAME}</environment>
      <comment>test-plugin</comment>
-     <api_hoster>app.stage.jelastic.com</api_hoster> 
+     <api_hoster>app.demo.jelastic.com</api_hoster> 
   </configuration>
  </plugin>
 </plugins>
